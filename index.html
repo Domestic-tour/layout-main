@@ -7,9 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400&display=swap" rel="stylesheet">
     <style>
         * {
             box-sizing: border-box;
+            font-family: 'Public Sans', sans-serif;
         }
 
         body {
@@ -18,12 +22,16 @@
         }
     </style>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!--  -->
+    <script defer src="node_modules/@fortawesome/fontawesome-free/js/brands.js"></script>
+    <script defer src="node_modules/@fortawesome/fontawesome-free/js/solid.js"></script>
+    <script defer src="node_modules/@fortawesome/fontawesome-free/js/fontawesome.js"></script>
 </head>
 
 <body>
-    <div style="display: grid;grid-template-columns: 20% 80%;">
-        <div style="border-right: 1px rgb(235, 234, 234) solid;position: fixed;top: 0;left: 0;bottom: 0;">
-            <img src="./img/logo.png" alt="">
+    <div style="display: grid;grid-template-columns: 20% 80%;height: 100vh;width: 100vw">
+        <div style="border-right: 1px rgb(235, 234, 234) solid;">
+            <img src="./img/logo.png" alt="" style="width: 80%;height: 120px;margin: 20px;">
             <div class="container-item-tag ">
                 <div class="container-item-tag-logo">
                     <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="tachometer-alt"
@@ -109,8 +117,46 @@
                 </div>
             </div>
         </div>
-        <div>
+        <!-- right -->
+        <div style="margin: 10px 10px 10px 10px;">
+            <!-- search -->
             <!-- source  -->
+            <div style="display: grid; grid-template-columns: 50% 50%;margin: 10px 10px 10px 10px;">
+                <div class="container-img-card">
+                    <img class="img-headerPosition" src="./img/vinhhalong/vinhhalong1.png" alt="">
+                    <div class="overlay-img-headerPosition">
+                        <p class="overlay-inside-date">20 November 2020</p>
+                        <p class="overlay-inside-title">Tour : Ha Noi - Hai Phong - Quang Ninh</p>
+                        <div class="overlay-inside-interaction">
+                            <i class="fas fa-comment-dots overlay-inside-interaction-icon" ></i>
+                            <span class="overlay-inside-interaction-title">120k</span>
+                            <i class="fas fa-eye overlay-inside-interaction-icon"></i>
+                            <span class="overlay-inside-interaction-title">120k</span>
+                            <i class="fas fa-share-alt overlay-inside-interaction-icon"></i>
+                            <span class="overlay-inside-interaction-title">120k</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-img-card">
+                    <img class="img-headerPosition" src="./img/hoian/hoian1.png" alt="">
+                    <div class="overlay-img-headerPosition">
+                        <p class="overlay-inside-date">20 November 2020</p>
+                        <p class="overlay-inside-title">Tour : Da Nang - Hoi An</p>
+                        <div class="overlay-inside-interaction">
+                            <i class="fas fa-comment-dots overlay-inside-interaction-icon" ></i>
+                            <span class="overlay-inside-interaction-title">120k</span>
+                            <i class="fas fa-eye overlay-inside-interaction-icon"></i>
+                            <span class="overlay-inside-interaction-title">120k</span>
+                            <i class="fas fa-share-alt overlay-inside-interaction-icon"></i>
+                            <span class="overlay-inside-interaction-title">120k</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p>hieu</p>
+            <div>
+                
+            </div>
         </div>
     </div>
     <script src="script.js"></script>
